@@ -1,0 +1,66 @@
+#container{
+    text-align: center;
+    & div{
+        width: 350px;
+        display: inline-block;
+    }
+}
+
+.try{
+    & button{
+        padding: 10px 50px;
+        margin: 5px;
+        background-color: white;
+        font-weight: 600;
+        border: 1px solid black;
+    }
+
+    & .work1{
+        transition: all 0.3s;
+        &:hover{
+            background-color: black;
+            color: white;
+            box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, .5);
+        }
+    }
+
+    & .work2{
+        transition: all 0.3s;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, .5);
+        &:hover{
+            background-color: white;
+            color: black;
+            box-shadow: none;
+        }
+    }
+
+    & .work3{
+        transition: all 0.3s;
+        &:hover{
+            background-color: black;
+            color: white;
+            padding: 10px 60px;
+            letter-spacing: 2px;
+        }
+    }
+
+    & .work4{
+        transition: all 0.3s;
+        &:hover{
+            transform: translate(-5px, -5px);
+            box-shadow: 4px 6px 0px 0px black;
+        }
+    }
+
+    & .work5{
+        transition: all 0.3s;
+        border-radius: 10px;
+        box-shadow: 4px 6px 0px 0px black;
+        &:hover{
+            transform: translate(4px, 6px);
+            box-shadow: none;
+        }
+    }
+}

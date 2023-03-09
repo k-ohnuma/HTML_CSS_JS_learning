@@ -1,0 +1,53 @@
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.container > div {
+  flex-basis: 300px;
+}
+
+.btn {
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  padding: 10px 40px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: all 0.3s;
+  background-color: white;
+  border: 1px solid black;
+}
+.btn.work1:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px 6px black;
+}
+.btn.work2 {
+  background-color: black;
+  color: white;
+  box-shadow: 3px 3px 6px black;
+}
+.btn.work2:hover {
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
+.btn.work3:hover {
+  padding: 10px 50px;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+}
+.btn.work4:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px black;
+}
+.btn.work5 {
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px black;
+}
+.btn.work5:hover {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}/*# sourceMappingURL=style.css.map */

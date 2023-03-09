@@ -1,0 +1,59 @@
+#container {
+  text-align: center;
+}
+#container div {
+  width: 350px;
+  display: inline-block;
+}
+
+.try button {
+  padding: 10px 50px;
+  margin: 5px;
+  background-color: white;
+  font-weight: 600;
+  border: 1px solid black;
+}
+.try .work1 {
+  transition: all 0.3s;
+}
+.try .work1:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.5);
+}
+.try .work2 {
+  transition: all 0.3s;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.5);
+}
+.try .work2:hover {
+  background-color: white;
+  color: black;
+  box-shadow: none;
+}
+.try .work3 {
+  transition: all 0.3s;
+}
+.try .work3:hover {
+  background-color: black;
+  color: white;
+  padding: 10px 60px;
+  letter-spacing: 2px;
+}
+.try .work4 {
+  transition: all 0.3s;
+}
+.try .work4:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 4px 6px 0px 0px black;
+}
+.try .work5 {
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: 4px 6px 0px 0px black;
+}
+.try .work5:hover {
+  transform: translate(4px, 6px);
+  box-shadow: none;
+}/*# sourceMappingURL=style.css.map */

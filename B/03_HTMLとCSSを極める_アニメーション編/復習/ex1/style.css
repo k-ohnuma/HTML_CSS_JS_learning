@@ -1,0 +1,32 @@
+#container {
+  text-align: center;
+  /* position: relative; */
+}
+
+.circle {
+  /* position: absolute; */
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  animation: sk-bouncedelay 1.2s infinite;
+}
+.circle.work1 {
+  animation-delay: -0.6s;
+}
+.circle.work2 {
+  animation-delay: -0.3s;
+}
+
+@keyframes sk-bouncedelay {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=style.css.map */
